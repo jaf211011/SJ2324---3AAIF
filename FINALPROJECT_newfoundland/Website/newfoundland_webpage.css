@@ -1,0 +1,55 @@
+:root
+{
+
+    --fs-xl: clamp(4rem, 12vw + 1rem, 12rem);
+    --fs-600: 1.5rem;
+    --fs-500: 1.25rem;
+    --fs-400: 1rem;
+}
+
+@media (min-width: 320px)
+{
+
+}
+
+@media (min-width: 768px)
+{
+
+}
+
+@media (min-width: 1200px)
+{
+
+}
+
+.siteheader
+{
+    background-image: url("https://assets.vogue.com/photos/59a6ee9ac3f99f428736c1a7/master/w_1600,c_limit/01-newfoundland-canada-travel-guide.jpg");
+    padding: 50px;
+    height: 870px;
+    
+}
+
+.siteheader h1, h2
+{
+    color: white;
+    text-align: right;
+
+}
+
+.sticky
+{
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.mainblogpost
+{
+    background-color:white;
+    text-align: center;
+}
+
+
+
+
